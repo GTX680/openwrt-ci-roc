@@ -275,7 +275,7 @@ jobs:
 
     - name: Upload Packages To Release(发布软件包)
       if: ${{ steps.packages.outputs.found == 'true' }}
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@vv1.21.0
       with:
         name: Packages
         allowUpdates: true
