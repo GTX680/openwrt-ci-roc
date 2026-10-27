@@ -372,7 +372,7 @@ jobs:
         path: artifacts/firmware
 
     - name: Upload Firmware To Release(发布固件)
-      uses: ncipollo/release-action@v1
+      uses: ncipollo/release-action@v1.21.0
       with:
         name: ${{ inputs.firmware_tag }}
         allowUpdates: true
